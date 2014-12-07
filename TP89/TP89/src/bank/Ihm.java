@@ -61,7 +61,7 @@ public class Ihm extends JFrame implements Observer {
 	private JButton buttonM;
 	private JButton buttonCancel;
 	
-	private Bank bank= new Bank(new validator.<IciLeNomDeVotreBinome>.ConcreteValidator());
+	private Bank bank= new Bank(new validator.GestinSinquinRenault.ConcreteValidator());
 
 	
 	public Ihm() { 
